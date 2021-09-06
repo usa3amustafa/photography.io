@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  max-width: 1100px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+.normal {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.landscape {
+  grid-column: span 2;
+}
+.fav {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.portrait {
+  grid-row: span 2;
+}
+.p1 {
+  background: url('./img/p1.jpg') center/cover no-repeat;
+}
+.p2 {
+  background: url('./img/p2.jpg') center/cover no-repeat;
+}
+.p3 {
+  background: url('./img/p3.jpg') center/cover no-repeat;
+}
+.p4 {
+  background: url('./img/p4.jpg') center/cover no-repeat;
+}
+.p5 {
+  background: url('./img/p5.jpg') center/cover no-repeat;
+}
+.p6 {
+  background: url('./img/p6.jpg') center/cover no-repeat;
+}
+.p7 {
+  background: url('./img/p7.jpg') center/cover no-repeat;
+}
+.n1 {
+  background: url('./img/n1.jpg') center/cover no-repeat;
+}
+.n2 {
+  background: url('./img/n2.jpg') center/cover no-repeat;
+}
+.n3 {
+  background: url('./img/n3.jpg') center/cover no-repeat;
+}
+.n4 {
+  background: url('./img/n4.jpg') center/cover no-repeat;
+}
+.n5 {
+  background: url('./img/n5.jpg') center/cover no-repeat;
+}
+.n6 {
+  background: url('./img/n6.jpg') center/cover no-repeat;
+}
+.n7 {
+  background: url('./img/n7.jpg') center/cover no-repeat;
+}
+.n8 {
+  background: url('./img/n8.jpg') center/cover no-repeat;
+}
+.l1 {
+  background: url('./img/l1.jpg') center/cover no-repeat;
+}
+.l2 {
+  background: url('./img/l2.jpg') center/cover no-repeat;
+}
+.l3 {
+  background: url('./img/l3.jpg') center/cover no-repeat;
+}
+.l4 {
+  background: url('./img/l4.jpg') center/cover no-repeat;
+}
+.l5 {
+  background: url('./img/l5.jpg') center/cover no-repeat;
+}
+.l6 {
+  background: url('./img/l6.jpg') center/cover no-repeat;
+}
+.l7 {
+  background: url('./img/l7.jpg') center/cover no-repeat;
+}
+.f1 {
+  background: url('./img/f1.jpg') center/cover no-repeat;
+}
+.f2 {
+  background: url('./img/f2.jpg') center/cover no-repeat;
+}
+.f3 {
+  background: url('./img/f3.jpg') center/cover no-repeat;
+}
+.f4 {
+  background: url('./img/f4.jpg') center/cover no-repeat;
+}
+.f5 {
+  background: url('./img/f5.jpg') center/cover no-repeat;
+}
+.f6 {
+  background: url('./img/f6.jpg') center/cover no-repeat;
+}
